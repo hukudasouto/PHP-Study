@@ -1,2 +1,4 @@
 <?php
-echo "jir:osjvir;jih:bo\n";
+echo "こんにちわ";
+echo "こんにちわ\n";
+echo "こんにちわ\n";
