@@ -9,9 +9,9 @@ echo "平均値: " . $result . "\n";
 
 function average($values)
 {
-    $total=0;
-    for ($i = 0; $i < count($values); $i++){
-        $total==$total+$values[$1];
+    $total = 0;
+    for ($i = 0; $i < count($values); $i++) {
+        $total = $total + $values[$i];
     }
-    $result/$1
+    return $total / count($values);
 }
