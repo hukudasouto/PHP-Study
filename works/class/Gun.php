@@ -77,9 +77,7 @@ class Gun
     function unsetExtendedMagazine()
     {
         $this->maxMagazine = $this->maxMagazine - $this->extendedMagazine;
-        if ($this->currentMagazine >= $this->maxMagazine) {
-            return;
-        }
+
         $this->currentMagazine = $this->maxMagazine;
     }
 }

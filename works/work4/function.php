@@ -14,9 +14,14 @@ function readBooksData()
         // 行ごとに読み込んで連想配列に変換
         while (($data = fgetcsv($file, 1000, ',')) !== FALSE) {
             $book = array();
+
+
+
+
+
             // TODO:ここでループを使ってデータを連想配列に変換
 
-            // print_r($data); <- これで$dataの中身を確認できる。
+            print_r($data); // <- これで$dataの中身を確認できる。
         }
 
         fclose($file);
@@ -29,14 +34,10 @@ function readBooksData()
 }
 
 // 関数2
-function calcTax($books)
-{
-}
+function calcTax($books) {}
 
 // 関数3
-function findBooks($books, $str)
-{
-}
+function findBooks($books, $str) {}
 
 // データを表示する関数
 function displayBooks($books)
