@@ -13,7 +13,11 @@ function readBooksData()
 
         // 行ごとに読み込んで連想配列に変換
         while (($data = fgetcsv($file, 1000, ',')) !== FALSE) {
-            $book = array();
+            $book = array(
+                $header[0]==$books[0]
+                $header[1]==$books[1]
+                $header[2]==$books[2]
+            )
 
 
 

@@ -12,7 +12,6 @@ class Gun
 
     private $extendedMagazine;
 
-    private $unsetextendedMagazine;
     // ↑フィールド============================
 
     // コンストラクタ
@@ -21,8 +20,6 @@ class Gun
         $this->name = $name;
         $this->maxMagazine = $maxMagazine;
         $this->currentMagazine = 0;
-        $this->extendedMagazine;
-        $this->unsetextendedMagazine;
     }
 
     // 現在の状態を表示
